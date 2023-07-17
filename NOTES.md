@@ -122,3 +122,6 @@ ip ansible_user=deploy
 > curl -fsSL https://get.docker.com/ | sudo -E sh
 > 
 > https://cloud.tencent.com/developer/article/2232804?areaSource=102001.8&traceId=w5HyzmIUxnuQmldhKmudH
+
+> docker run -d --hostname my-rabbit --name some-rabbit rabbitmq:3-management
+
