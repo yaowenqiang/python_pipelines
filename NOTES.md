@@ -55,10 +55,10 @@ default   username and password
 guest/guest
 
 > 
-> pip install celery[rabbitmq]
+> pip install "celery[rabbitmq]"
 > 
 > pip install pandas
-> pip install pandas-datareader
+> pip install pandas_datareader
 > 
 > pip install jupyter
 > 
